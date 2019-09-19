@@ -2,7 +2,7 @@ body {
   background-color: dodgerblue;
   text-align: center;
 }
-Img {
+img {
   max-width: 100%
 }
 body {
@@ -22,5 +22,5 @@ a{
   transition:color .5s ease;
 }
 a:hover {
-  
+
 }
