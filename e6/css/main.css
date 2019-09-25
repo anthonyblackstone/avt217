@@ -23,23 +23,39 @@ body {
 .tile3 {
   background-color: deeppink;
 }
-
-.tile4 {
-  background-color: #556;
-  background-image: linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
-linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
-linear-gradient(30deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
-linear-gradient(150deg, #445 12%, transparent 12.5%, transparent 87%, #445 87.5%, #445),
-linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a),
-linear-gradient(60deg, #99a 25%, transparent 25.5%, transparent 75%, #99a 75%, #99a);
-background-size:80px 140px;
-background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+.tile12 {
+  height: 100px;
+  width: 100px;
+  background-color: teal;
+  border-radius: 50%;
+  margin: -10px;
+  float: left;
+  opacity: .8;
 }
-
+.tile13 {
+  height: 100px;
+  width: 200px;
+  background-color: lightcoral;
+  border-radius: 50%;
+  margin: -10px;
+  float: left;
+  opacity: .8;
+}
+.tile14 {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  border-radius: 50%;
+  margin: -10px;
+  float: left;
+  opacity: .8;
+}
 .tile5, .tile6, .tile7 {
   height: 100px;
   width: 100px;
-  border-radius: -50%;
+  border-radius: 50%;
+  margin: -10px;
+  float: left;
 }
 .tile5 {
   background-color: purple;
@@ -53,28 +69,74 @@ background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
 .tile8 {
   width: 0;
   height: 0;
-  border-left: 25px solid blue;
-  border-right: 25px solid red;
-  border-bottom: 50px solid black;
+  border-left: 50px solid blue;
+  border-right: 50px solid red;
+  border-bottom: 100px solid black;
+  margin: -10px;
+  float: left;
+  opacity: .8;
 }
 .tile9 {
   width: 0;
   height: 0;
-  border-left: 25px solid yellow;
-  border-right: 25px solid pink;
-  border-top: 50px solid white;
+  border-left: 50px solid yellow;
+  border-right: 50px solid pink;
+  border-top: 100px solid white;
+  margin: -10px;
+  float: left;
+  opacity: .8;
 }
 .tile10 {
   width: 0;
   height: 0;
-  border-top: 25px solid green;
-  border-right: 50px solid black;
-  border-bottom: 25px solid cyan;
+  border-top: 50px solid green;
+  border-right: 100px solid black;
+  border-bottom: 50px solid cyan;
+  margin: -10px;
+  float: left;
+  opacity: .8;
 }
 .tile11 {
   width: 0;
   height: 0;
-  border-top: 25px solid magenta;
-  border-left: 50px solid white;
-  border-bottom: 25px solid teal;
+  border-top: 50px solid magenta;
+  border-left: 100px solid white;
+  border-bottom: 50px solid teal;
+  margin: -10px;
+  float: left;
+  opacity: .8;
+}
+
+
+.square {
+  width:100px;
+  height:100px;
+  background:#c52329;
+  border:solid 2px #FFF;
+  transform: skew(180deg,210deg);
+  position: absolute;
+  top: 43px;
+  float: left;
+}
+.square2 {
+  width:100px;
+  height:100px;
+  background: darkred;
+  border:solid 2px #FFF;
+  transform: skew(180deg,150deg);
+  position: absolute;
+  left:102px;
+  top: 43px;
+  float: left;
+}
+.square3 {
+  width:114px;
+height:100px;
+background: lightcoral;
+border:solid 2px #FFF;
+transform: rotate(150deg) translate(-40px, -16px) skew(30deg, 0deg);
+position: absolute;
+left: 0px;
+top: -32px;
+float: left;
 }
