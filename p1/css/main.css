@@ -1,14 +1,11 @@
 body {
-  background-color: darkgreen;
+  background-color: darkseagreen;
 }
 p {
 text-align: center;
-font-family: 'IM Fell English SC', serif;
+
 color: gold;
-font-size: 72px;
-}
-p1 {
-  
+font-size: 50px;
 }
 a {
   outline: none;
