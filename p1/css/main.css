@@ -1,22 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=IM+Fell+English+SC&display=swap');
+
 body {
   background-color: darkseagreen;
 }
 p {
 text-align: center;
-font-family: 'IM Fell English SC', serif;
+font-family: "IM Fell English SC";
 color: gold;
 font-size: 50px;
 }
 h1 {
   text-align: center;
-  font-family: 'IM Fell English SC', serif;
+  font-family: "IM Fell English SC";
   color: purple;
   font-size: 35px
 }
 h1 ~ p {
   text-align: center;
-  font-family: 'IM Fell English SC', serif;
+  font-family: "IM Fell English SC";
   color: darkblue;
   font-size: 30px
 }
