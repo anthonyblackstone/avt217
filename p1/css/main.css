@@ -33,7 +33,6 @@ a:visited {
   color: #437A16;
 }
 a:hover {
-  border-bottom: 1px solid;
   background: #CDFEAA;
 }
 a:active {
