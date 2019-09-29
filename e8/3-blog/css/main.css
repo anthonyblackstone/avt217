@@ -1,0 +1,57 @@
+body{
+  background-color: #333333;
+  }
+  #blog {
+    width: 1000px;
+    margin: 50px auto;
+    box-sizing: border-box;
+
+  }
+    .header {
+    width: 1000px;
+    height: 200px;
+    background-color: crimson;
+    }
+
+    .content1 {
+      width: 790px;
+      height: 500px;
+      background-color: crimson;
+      margin-top: 100px;
+      float: left;
+      }
+      .content2{
+        width: 200px;
+        height: 250px;
+        background-color: crimson;
+        margin-left: 10px;
+        margin-top: 100px;
+        float: right;
+      }
+    .content3 {
+      width: 790px;
+      height: 50px;
+      background-color: crimson;
+      margin-top: 610px;
+    }
+    .content4 {
+      width: 790px;
+      height: 500px;
+      background-color: crimson;
+      margin-top: 100px;
+      float: left;
+      }
+      .content5{
+        width: 200px;
+        height: 250px;
+        background-color: crimson;
+        margin-left: 10px;
+        margin-top: 100px;
+        float: right;
+      }
+    .content6 {
+      width: 790px;
+      height: 50px;
+      background-color: crimson;
+      margin-top: 610px;
+    }
