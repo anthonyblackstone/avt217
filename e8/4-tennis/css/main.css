@@ -1,8 +1,34 @@
+* {
+  box-sizing: border-box;
+}
 body{
   background-color: #333333;
+  margin: 0;
   }
   #tennis {
-    width: 500px;
+    width: 600px;
+    height: 800px;
     margin: 50px auto;
     box-sizing: border-box;
+    background-color: crimson;
   }
+.side, .back, .middle {
+    float: left;
+    border: 3px solid white;
+  }
+.center {
+  width: 400px;
+  float: left;
+}
+.side {
+  width: 100px;
+  height: 400px;
+}
+.back {
+  width: 400px;
+  height: 100px;
+}
+.middle {
+  width: 200px;
+  height: 300px;
+}
