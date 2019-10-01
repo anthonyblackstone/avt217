@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #333333;
+}
+#container {
+  width: 400px;
+  background-color: crimson;
+  margin: 50px auto;
+  box-sizing: border-box;
+}
+
+.side {
+  width: 100px;
+  height: 200px;
+  border: 3px solid white;
+  background-color: crimson;
+  float: left;
+}
+
+.top {
+  width: 100px;
+  height: 100px;
+  border: 3px solid white;
+  background-color: crimson;
+  float: left;
+}
+.top2 {
+  width: 200px;
+  height: 100px;
+  border: 3px solid white;
+  background-color: crimson;
+  float: left;
+}
+#container2 {
+  width: 100px;
+  background-color: crimson;
+  box-sizing: border-box;
+  float: left;
+}
+.side4 {
+  width: 100px;
+  height: 400px;
+  border: 3px solid white;
+  background-color: crimson;
+  float: left;
+}
+.middle {
+  width: 200px;
+  height: 400px;
+  border: 3px solid white;
+  background-color: crimson;
+  float: left;
+}
