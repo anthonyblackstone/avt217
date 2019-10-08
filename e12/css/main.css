@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+  margin: 0;
+}
+.title {
+  width: 50%;
+  margin: 50px;
+  color: #820C28;
+  font-family: american-scribe, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 175px;
+  transform: rotate(-45deg);
+  text-align: left;
+}
+.text {
+  width: 75%;
+  margin: -500px auto 50px;
+  color: #820C28;
+  font-family: adobe-jenson-pro-caption,serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: right;
+}
+.text2 {
+  width: 75%;
+  margin: 50px auto;
+  color: #820C28;
+  text-align: right;
+  margin-right: 0;
+  font-family: adobe-jenson-pro-caption,serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.text3 {
+  width: 75%;
+  margin: 50px auto;
+  color: #820C28;
+  text-align: left;
+  margin-right: 0;
+  font-family: adobe-jenson-pro-caption,serif;
+  font-weight: 300;
+  font-style: normal;
+}
