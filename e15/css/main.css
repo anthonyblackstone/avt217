@@ -1,5 +1,20 @@
-li {
-  background: #ffe5e5;
+ol {
+  
+  padding: 20px;
+}
+
+ul {
+
+  padding: 20px;
+}
+
+ol li {
+
   padding: 5px;
   margin-left: 35px;
+}
+
+ul li {
+
+  margin: 5px;
 }
