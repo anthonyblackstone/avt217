@@ -1,9 +1,8 @@
 body {
-  Margin: 50px auto;
+  background-color: lightgreen;
+  margin: 50px auto;
   width: 50%
 }
-@media only screen and (max-width: 600px) {
-  html{
-    background-color: blue;
-  }
+@media only screen and (max-width: 800px) {
+  html {background-color: blue;}
 }
