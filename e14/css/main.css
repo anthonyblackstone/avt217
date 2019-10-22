@@ -20,6 +20,12 @@ body {
     font-size: 20px;
     color:
   }
+  h5 {
+    font-style: italic;
+    color: white;
+    font-size: 20px;
+    line-height: 1.6em;
+  }
   p {
     font-size: 20px;
     line-height: 1.6em;
