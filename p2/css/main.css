@@ -1,0 +1,12 @@
+body {
+  background-color: #cccccc;
+}
+#container {
+  width: 1440px;
+}
+.header {
+  width: 1440px;
+  height: 554px;
+  color: black;
+  
+}
