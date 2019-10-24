@@ -1,5 +1,6 @@
 body {
   background-color: #cccccc;
+  margin: 0;
 }
 #container {
   width: 1440px;
@@ -8,7 +9,7 @@ body {
 .header {
   width: 1440px;
   height: 554px;
-  color: black;
+  background-color: black;
   margin: 0;
 }
 .boxed {
@@ -44,7 +45,7 @@ body {
 .footer {
   width: 1440px;
   height: 228px;
-  color: black;
+  background-color: black;
 }
 h1 {
   text-align: center;
