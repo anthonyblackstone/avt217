@@ -3,10 +3,49 @@ body {
 }
 #container {
   width: 1440px;
-  margin: 0;
+  margin: 0 auto;
 }
 .header {
   width: 1440px;
   height: 554px;
   color: black;
+  margin: 0;
+}
+.boxed {
+  width: 868px;
+  height: 199.6px;
+  margin: 50px auto;
+}
+.boxed2 {
+  width: 830px;
+  height: 251px;
+  margin: 50px auto;
+}
+.boxed3 {
+  width: 371px;
+  height: 566.48px;
+  margin: 50px auto;
+}
+.boxed4 {
+  width: 377px;
+  height: 523.48px;
+  margin: 50px auto;
+}
+.boxed5 {
+  width: 375px;
+  height: 523.571px;
+  margin: 50px auto;
+}
+.square {
+  width: 1440px;
+  height: 1078px;
+  color: #808080;
+}
+.footer {
+  width: 1440px;
+  height: 228px;
+  color: black;
+}
+h1 {
+  text-align: center;
 }
