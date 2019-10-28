@@ -14,39 +14,67 @@ body {
 }
 .boxed {
   width: 868px;
-  height: 199.6px;
   margin: 50px auto;
 }
 .boxed2 {
   width: 830px;
-  height: 251px;
+  margin: 50px auto;
+}
+
+.boxed3,.boxed4,.boxed5 {
+  width: 375px;
   margin: 50px auto;
 }
 .boxed3 {
-  width: 371px;
-  height: 566.48px;
-  margin: 50px auto;
+  margin-left: 50px;
+  line-height:
 }
 .boxed4 {
-  width: 377px;
-  height: 523.48px;
-  margin: 50px auto;
+  margin-top: -1220px;
 }
 .boxed5 {
-  width: 375px;
-  height: 523.571px;
-  margin: 50px auto;
+  margin-right: 50px;
+  margin-top: -920px;
 }
 .square {
   width: 1440px;
-  height: 1078px;
+  height: 1200px;
   background-color: #808080;
+  margin-top: 75px;
 }
+
 .footer {
   width: 1440px;
   height: 228px;
   background-color: black;
 }
-h1 {
+h1,h2,h3,h4,h5,h6,h7 {
   text-align: center;
+  font-family: english,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+h1,h2 {
+  font-size: 100px;
+  color: white;
+}
+h1 {
+  margin-left: -600px;
+  margin-top: 0px;
+}
+h2 {
+  margin-right: -600px;
+}
+h3,h4,h5,h6,h7 {
+  font-size: 36px;
+}
+h6 {
+  margin-top: 110px;
+}
+
+p {
+  font-family: source-serif-pro,serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 17px;
 }
