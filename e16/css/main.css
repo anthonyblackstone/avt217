@@ -37,12 +37,18 @@ body {
   position: absolute;
   left: 100px;
   top:150px;
+  animation-name: glow;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 .eyeR {
   position: absolute;
   right: 100px;
   top: 150px;
   transform: rotate(270deg);
+  animation-name: glow;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 .triangle {
   width: 0;
@@ -166,3 +172,10 @@ body {
   right: 50px;
   position: absolute;
 }
+@keyframes glow {
+  from {
+    box-shadow: 0 0 30px -30px darkred;
+  }
+  to {
+    box-shadow: 0 0 30px 30px darkred;
+  }
