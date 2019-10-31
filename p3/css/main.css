@@ -1,3 +1,8 @@
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 body {
   background-color: #cccccc;
   margin: 0;
@@ -8,7 +13,7 @@ body {
 }
 .header {
   width: 1440px;
-  height: 554px;
+  padding: 0 0 25px;
   background-color: black;
   margin: 0;
   position: relative;
@@ -26,69 +31,52 @@ body {
 
 .boxed3, .boxed4, .boxed5 {
   width: 375px;
-  margin: 50px auto;
-}
-.boxed3 {
-  margin-left: 50px;
-}
-.boxed4 {
-  margin-top: -1220px;
-}
-.boxed5 {
-  margin-right: 50px;
-  margin-top: -920px;
-}
-.square {
-  width: 1440px;
-  height: 1200px;
-  background-color: #808080;
-  margin-top: 75px;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 65px;
+  margin-bottom: 20px;
+  float: left;
 }
 
+.square {
+  width: 1440px;
+  background-color: #808080;
+}
 .footer {
   width: 1440px;
-  height: 228px;
+  padding: 25px 0;
   background-color: black;
+  margin: 0;
+  position: relative;
+  text-align: center;
 }
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h6 {
   text-align: center;
   font-family: english,sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-h1,h2 {
-  font-size: 50px;
-  color: white;
-}
 h1 {
-  /* margin-left: -600px;
-  margin-top: -300px;
-  margin-left: -800px; */
+  font-size: 90px;
+  color: white;
 }
 #titleL {
   position: absolute;
-  left: 0;
-  top: 200px;
+  left: 50px;
+  top: 50px;
 }
 #titleR {
   position: absolute;
-  right : 0;
-  top: 200px;
-}
-h2 {
-  /* margin-right: -600px;
-  margin-top: -195px; */
-}
-h3,h4,h5,h6 {
-  font-size: 36px;
+  right : 55px;
+  bottom: 50px;
 }
 h6 {
-  margin-top: 110px;
+  font-size: 36px;
+  margin: 25px 0;
 }
-
 p {
   font-family: source-serif-pro,serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 17px;
+  font-size: 16px;
 }
