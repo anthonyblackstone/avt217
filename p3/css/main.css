@@ -50,7 +50,7 @@ body {
   position: relative;
   text-align: center;
 }
-h1,h2,h3,h4,h6 {
+h1,h3,h4,h6 {
   text-align: center;
   font-family: english,sans-serif;
   font-weight: 400;
@@ -79,4 +79,19 @@ p {
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
+}
+@media only screen and (max-width: 1024px) {
+  body {
+    background-color: red;
+  }
+
+
+
+
+
+
+
+
+
+
 }
