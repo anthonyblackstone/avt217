@@ -18,8 +18,8 @@ body {
   margin: 0;
   position: relative;
   text-align: center;
-
 }
+
 .boxed {
   width: 868px;
   margin: 50px auto;
@@ -80,18 +80,76 @@ p {
   font-style: normal;
   font-size: 16px;
 }
-@media only screen and (max-width: 1024px) {
-  body {
-    background-color: red;
+@media only screen and (max-width: 1439px) {
+  #container {
+    width: 1024px;
+    margin: 0 auto;
+  }
+  .header {
+    width: 1024px;
+    padding: 0 0 25px;
+    background-color: black;
+    margin: 0;
+    position: relative;
+    text-align: center;
+  }
+  .dwarf img {
+    width: 339px;
+  }
+  .dragon img {
+    width: 1024px;
+  }
+  #titleL {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+  }
+  #titleR {
+    position: absolute;
+    right : 55px;
+    bottom: 50px;
+  }
+  h1 {
+    font-size: 60px;
+    color: white;
   }
 
+  .boxed3, .boxed4, .boxed5 {
+    width: 892px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 65px;
+    margin-bottom: 20px;
 
-
-
-
-
-
-
-
-
+  }
+  .dice img {
+    float: left;
+  }
+  .content {
+    float: left;
+    width: 472px;
+    margin-left: 25px;
+    margin-top: -20px;
+  }
+  .mini img {
+    float: left;
+  }
+  .sheet img {
+    float: left;
+  }
+  .square {
+    width: 1024px;
+    background-color: #808080;
+  }
+  .footer {
+    width: 1024px;
+    padding: 10px 0;
+    background-color: black;
+    margin: 0;
+    position: relative;
+    text-align: center;
+  }
+  .dicesword img {
+    width: 613px;
+  }
 }
