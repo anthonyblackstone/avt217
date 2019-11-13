@@ -23,4 +23,7 @@ a{
 }
 a:hover {
   background: #CDFEAA;
+  font-family: 'Satisfy', cursive;
+  border-bottom: none;
+  text-transform: lowercase;
 }
