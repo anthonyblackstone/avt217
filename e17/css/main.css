@@ -11,7 +11,7 @@ body {
 .title {
   width: 100vw;
   height: 90vh;
-  background-color: dodgerblue;
+  background-color: coral;
   padding: 32vh 0 0 0;
 }
 .loz-oot,.fallout3,.ff7,.teso,.lotro {
@@ -19,15 +19,30 @@ body {
   height: 25vh;
   font-size: 5em;
   text-align: center;
-  color: #ddd;
-  background-color: whitesmoke;
+  color: white;
+  width: 100%;
+  height: 25vh;
+
+}
+.loz-oot {
+  background-color: green;
+}
+.fallout3 {
+  background-color: tan;
+}
+.ff7 {
+  background-color: gold;
+}
+.teso {
+  background-color: black;
+}
+.lotro {
+  background-color: darkgreen;
 }
 .align-left {
   text-align: left;
 }
-.number3 {
-  color: green;
-}
+
 
 h1 {
   text-transform: uppercase;

@@ -10,7 +10,8 @@ $( document ).ready(function() {
   })
 
   $('.ff7').click(function() {
-    $('.number-3').css('background-color', 'green');
+    $('.number-3').css('background-color', 'red');
+
   })
 
   $('.number-4').click(function() {
@@ -18,6 +19,6 @@ $( document ).ready(function() {
   })
 
   $('.lotro').click(function(){
-    
+
   })
 });
