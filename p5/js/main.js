@@ -17,7 +17,7 @@ $( document ).ready(function() {
   // for an image, the image needs to be fully loaded to set
   // the canvas to it's height/width.
   // speed allows us to control... the ... velocity
-  $("#image").imagesLoaded( function() {
+  $("#container").imagesLoaded( function() {
     $(".sword").sparkleh({
       count: 300,
       color: ["#0000FF","#150150","#3CD160"],
@@ -39,15 +39,15 @@ $.fn.sparkleh = function( options ) {
 
   return this.each( function(k,v) {
 
-    var $this = $(v).css("position","relative");
+    var $this = $(v).css("position","initial");
 
     var settings = $.extend({
       width: $this.outerWidth(),
       height: $this.outerHeight(),
       color: "rainbow",
-      count: 500,
+      count: 50,
       overlap: 0,
-      speed: 1
+      speed: .05
     }, options );
 
     var sparkle = new Sparkle( $this, settings );
@@ -84,8 +84,8 @@ Sparkle.prototype = {
         .addClass("sparkle-canvas")
         .css({
           position: "absolute",
-          top: "-"+_this.options.overlap+"px",
-          left: "-"+_this.options.overlap+"px",
+          // top: "-"+_this.options.overlap+"px",
+          // left: "-"+_this.options.overlap+"px",
           "pointer-events": "none"
         })
         .appendTo($parent);
@@ -97,8 +97,8 @@ Sparkle.prototype = {
     this.sprites = [0,6,13,20];
     this.sprite.src = this.datauri;
 
-    this.canvas.width = this.options.width + ( this.options.overlap * 2);
-    this.canvas.height = this.options.height + ( this.options.overlap * 2);
+    this.canvas.width = 100 + ( this.options.overlap * 2);
+    this.canvas.height = 300 + ( this.options.overlap * 2);
 
 
     this.particles = this.createSparkles( this.canvas.width , this.canvas.height );
