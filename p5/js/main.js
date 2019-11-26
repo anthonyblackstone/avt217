@@ -10,7 +10,7 @@ $( document ).ready(function() {
     color: "rainbow",
     count: 100,
     overlap: 10,
-    speed: 1.9
+    speed: 1.9,
 
   });
   // an array can be passed, too for colours
