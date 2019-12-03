@@ -2,7 +2,7 @@ body {
   background-color: #777;
   margin: 0;
 }
-.desktop1024 {
+.desktop1024,.desktop768,.desktop320 {
   display: none;
 }
 .desktop,.desktop1024,.desktop768,.desktop320 {
@@ -50,7 +50,7 @@ body {
   .desktop320 {
     display: block;
   }
-  img {
+  /* img {
     margin: 0 calc(50vw - 160px);
-  }
+  } */
 }
