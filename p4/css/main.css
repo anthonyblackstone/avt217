@@ -1,0 +1,56 @@
+body {
+  background-color: #777;
+  margin: 0;
+}
+.desktop1024 {
+  display: none;
+}
+.desktop,.desktop1024,.desktop768,.desktop320 {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1439px) {
+  #container {
+    width: 100%;
+  }
+  .desktop {
+    display: none;
+  }
+  .desktop1024 {
+    display: block;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  #container {
+    width: 100%;
+  }
+  .desktop {
+    display: none;
+  }
+  .desktop1024 {
+    display: none;
+  }
+  .desktop768 {
+    display: block;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #container {
+    width: 100%;
+  }
+  .desktop {
+    display: none;
+  }
+  .desktop1024 {
+    display: none;
+  }
+  .desktop768 {
+    display: none;
+  }
+  .desktop320 {
+    display: block;
+  }
+  img {
+    margin: 0 calc(50vw - 160px);
+  }
+}
